@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
+    <script src='login.js'></script>
+</head>
+<body>
+    <div class="header1">
+        <img class="logo" src="gremio_colorado.jpg">
+        <h2>Grêmio Colorado</h2>
+    </div>
+
+
+    <form action="pagina_inicial.html" onsubmit="return validarFormulario()" method="get">
+
+        <section class="form-container">
+            <form id="cadastro">
+                <h1>Login</h1>
+   
+        <label>CPF:</label>
+        <input type="text" id="cpf" name="cpf" required>    
+   
+        <form>
+        <label>Senha:</label>
+        <input required="" type="password" name="senha" id="senha">
+       
+        <br><br>
+        <button type="submit" onclick="return validarSenha()">Entar</button>
+        </form>
+        <script src="cadastro_gremio.js"></script>
+
+        <section>
+            <a href="cadastro_gremio.html">Clique para Cadastrar</a>
+        </section>
+       
+        </form>
+        </form>
+</body>
+</html>
